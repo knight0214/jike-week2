@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>第二周作业1-div十字架修改版</title>
+    <style type="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-color: #256B6D;
+    }
+    
+    div {
+        width: 100px;
+        height: 100px;
+    }
+    
+    img {
+        width: 24px;
+    }
+    /*contianer页面垂直水平居中*/
+    
+    #contianer {
+        width: 330px;
+        height: 330px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -165px;
+        margin-top: -165px;
+    }
+    
+    .box {
+        display: -webkit-box;
+        -webkit-box-align: center;
+        -webkit-box-pack: center;
+        border: 5px solid;
+        border-radius: 5px;
+        box-shadow: 0px 0px 53px 20px #000000 inset;
+    }
+    
+    #top_box,
+    #bottom_box {
+        margin: 0 auto;
+    }
+    
+    #left_box,
+    #mid_box,
+    #right_box {
+        float: left;
+    }
+    
+    #top_box {
+        background: #45ACF7;
+    }
+    
+    #left_box {
+        background: #EF69D7;
+    }
+    
+    #mid_box {
+        background: #D4D4D4;
+    }
+    
+    #right_box {
+        background: #D4841E;
+    }
+    
+    #bottom_box {
+        clear: both;
+        background: #BB3440;
+    }
+    
+    </style>
+</head>
+
+<body>
+    <div id="contianer">
+        <div class="box" id="top_box">
+            <img src="p1.png">
+        </div>
+        <div class="box" id="left_box">
+            <img src="p2.png">
+        </div>
+        <div class="box" id="mid_box">
+            <img src="p7.png" class="icon">
+        </div>
+        <div class="box" id="right_box">
+            <img src="p4.png">
+        </div>
+        <div class="box" id="bottom_box">
+            <img src="p5.png">
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>第二周作业4-盒子模型</title>
+    <style type="text/css">
+    /*基本部分*/
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    hr {
+        clear: both;
+    }
+    /*普通盒子部分*/
+    
+    .con_1 {
+        width: 100px;
+        height: 100px;
+        background: #0070FF;
+        padding: 10px;
+        border: 5px solid #FFAA04;
+        margin: 20px;
+    }
+    
+    .content_1 {
+        width: 100px;
+        height: 100px;
+        background: #0000ff;
+        color: #ffffff;
+        text-align: center;
+        line-height: 100px;
+    }
+    /*怪异盒子部分*/
+    
+    .con_2 {
+        box-sizing: border-box;
+        width: 100px;
+        height: 100px;
+        background: #0070FF;
+        padding: 10px;
+        border: 5px solid #FFAA04;
+        margin: 20px;
+    }
+    
+    .content_2 {
+        width: 70px;
+        height: 70px;
+        background: #0000ff;
+        color: #ffffff;
+        text-align: center;
+        line-height: 70px;
+    }
+    /*应用部分*/
+    
+    .box {
+        box-sizing: border-box;
+        display: -webkit-box;
+        -webkit-box-align: center;
+        -webkit-box-pack: center;
+        float: left;
+        width: 120px;
+        height: 120px;
+        padding: 20px;
+        border: 5px solid;
+        margin: 10px 0px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 53px 20px #000000 inset;
+    }
+    
+    .box:hover {
+        box-sizing: content-box;
+    }
+    
+    #box_1 {
+        background: #45ACF7;
+    }
+    
+    #box_2 {
+        background: #EF69D7;
+    }
+    
+    #box_3 {
+        background: #D4D4D4;
+    }
+    
+    #box_4 {
+        background: #D4841E;
+    }
+    
+    #box_5 {
+        background: #BB3440;
+    }
+    /*弹性盒子布局*/
+    
+    .con_3 {
+        margin-left: 10px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .inner3_1 {
+        background: #D4841E;
+        -webkit-box-flex: 1;
+    }
+    
+    .inner3_2 {
+        background: #FFAA04;
+        -webkit-box-flex: 1;
+    }
+    
+    .inner3_3 {
+        background: #0000ff;
+        -webkit-box-flex: 1;
+    }
+    
+    .con_4 {
+        margin-left: 10px;
+        display: -webkit-flex;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .inner4_1 {
+        background: #D4841E;
+        -webkit-flex:1;
+    }
+    
+    .inner4_2 {
+        background: #FFAA04;
+        -webkit-flex:1;
+    }
+    
+    .inner4_3 {
+        background: #0000ff;
+        -webkit-flex:1;
+    }
+    </style>
+</head>
+
+<body>
+    <p>普通盒子</p>
+    <div class="con_1">
+        <div class="content_1">普通盒子</div>
+    </div>
+    <hr>
+    <p>怪异盒子</p>
+    <div class="con_2">
+        <div class="content_2">怪异盒子</div>
+    </div>
+    <hr>
+    <p>盒子模型应用</p>
+    <div class="box" id="box_1">
+        <a href="#">
+            <img src="p1.png" width="70">
+        </a>
+    </div>
+    <div class="box" id="box_2">
+        <a href="#">
+            <img src="p2.png" width="70">
+        </a>
+    </div>
+    <div class="box" id="box_3">
+        <a href="#">
+            <img src="p3.png" width="70">
+        </a>
+    </div>
+    <div class="box" id="box_4">
+        <a href="#">
+            <img src="p4.png" width="70">
+        </a>
+    </div>
+    <div class="box" id="box_5">
+        <a href="#">
+            <img src="p5.png" width="70">
+        </a>
+    </div>
+    <hr>
+    <p>弹性盒子布局（旧）</p>
+    <div class="con_3">
+        <div class="inner3_1"></div>
+        <div class="inner3_2"></div>
+        <div class="inner3_3"></div>
+    </div>
+    <p>弹性盒子布局（新）</p>
+    <div class="con_4">
+        <div class="inner4_1"></div>
+        <div class="inner4_2"></div>
+        <div class="inner4_3"></div>
+    </div>
+</body>
+
+</html>

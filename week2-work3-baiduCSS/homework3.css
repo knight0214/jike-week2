@@ -1,0 +1,181 @@
+/*css for homework3.html*/
+
+
+/*基本部分*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ffffff;
+    font: 12px arial;
+}
+
+a {
+    text-align: center;
+}
+
+#con {
+    height: 100%;
+    min-width: 810px;
+}
+
+
+/*header部分*/
+
+header {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 396px;
+    height: 24px;
+    margin: 19px 0 5px 0;
+    padding: 0 96px 0 0;
+}
+/*nav部分*/
+nav a.nav,
+nav a.nav:visited {
+    font-weight: bold;
+}
+
+nav a.nav,
+nav a.nav_2,
+nav a.nav_2:visited,
+nav a.nav:visited {
+    float: left;
+    color: #333;
+    line-height: 24px;
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+nav a.nav:hover,
+nav a.nav_2:hover {
+    color: #00c;
+}
+
+nav a.nav_3,
+nav a.nav_3:visited {
+    position: absolute;
+    right: 10px;
+    background-color: #38f;
+    border-bottom: 1px solid #38f;
+    color: #ffffff;
+    width: 60px;
+    height: 23px;
+    line-height: 24px;
+    font-size: 13px;
+    text-decoration: none;
+    margin: 0px 2px 0px 19px;
+}
+
+
+/*article部分*/
+
+article {
+    text-align: center;
+    margin-top: 187px;
+}
+
+
+/*form部分*/
+
+.form {
+    width: 641px;
+    height: 37px;
+    margin: 22px auto 0;
+}
+
+
+/*搜索框部分*/
+
+.search_w {
+    float: left;
+    width: 539px;
+    height: 34px;
+    background: #fff;
+    border: 1px solid #b8b8b8;
+    margin-right: 0;
+    border-right-width: 0;
+}
+
+.search_w:visited,
+.search_w:active,
+.search_w:hover {
+    border-color: #38f;
+}
+
+.search {
+    float: left;
+    width: 500px;
+    height: 22px;
+    margin: 6px 0px 0px 7px;
+    border: none;
+    outline: 0;
+}
+
+
+/*提交按钮部分*/
+
+.submit_w {
+    float: left;
+}
+
+.btn {
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-bottom: 1px;
+    width: 100px;
+    height: 36px;
+    background: #38f;
+    color: #ffffff;
+    border: 1px solid #38f;
+    border-bottom: 1px solid #2d78f4;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #317ef3;
+    border-bottom: 1px solid #2868C8;
+    box-shadow: 1px 1px 1px #CCC;
+}
+
+
+/*footer部分*/
+
+footer {
+    width: 720px;
+    text-align: center;
+    margin: 484px auto 0px;
+}
+
+span.f1,
+span.f2 {
+    display: block;
+}
+
+span.f1 a {
+    color: #00c;
+    margin: 0 9px;
+}
+
+span.f2 {
+    margin-top: 5px;
+}
+
+span.f2,
+span.f2 a {
+    color: #666;
+}
+
+span.fc {
+    background: url("https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/img/icons_45de3f02.png");
+    background-position: -600px -96px;
+    display: inline-block;
+    width: 14px;
+    height: 17px;
+    position: relative;
+    top: 3px;
+}

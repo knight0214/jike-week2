@@ -1,0 +1,179 @@
+/*CSS for homework2.html*/
+
+
+/*基本属性*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 10px 0px 20px 0px;
+    background: #117993;
+    font-size: 12px;
+}
+
+em {
+    color: #ff0000;
+    font-style: normal;
+}
+
+img {
+    margin: 3px auto;
+}
+
+.con {
+    width: 710px;
+    height: 100%;
+    background: #ffffff;
+    margin: 0 auto;
+    border: 1px solid #117993;
+    border-radius: 28px;
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+    color: #003399;
+}
+
+
+/*header 部分属性*/
+
+.logo {
+    width: 180px;
+    height: 82px;
+    margin-left: 29px;
+    float: left;
+}
+
+nav {
+    float: right;
+    margin: 65px 29px 0px 0px;
+}
+
+nav a {
+    margin-left: 6px;
+}
+
+nav a,
+nav a:hover,
+nav a:active,
+nav a:visited {
+    color: #ff0099;
+    text-decoration: none;
+}
+
+header {
+    height: 82px;
+}
+
+
+/*article部分属性*/
+
+article {
+    width: 637px;
+    margin: 0 auto;
+}
+
+
+/*table部分属性*/
+
+table {
+    width: 637px;
+    border: 1px solid #C7C7C7;
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 16px 6px 18px 0px;
+}
+
+th {
+    background: #EEEEEE;
+    color: #003399;
+    text-align: left;
+    padding: 2px 15px;
+    letter-spacing: 1px;
+}
+
+th,
+td {
+    line-height: 150%;
+}
+
+td {
+    padding: 2px 0px 2px 2px;
+}
+
+td.menu {
+    background: url("beijin1.gif");
+    padding: 2px 2px;
+    text-align: center;
+}
+
+td.opject {
+    width: 136px;
+    text-align: right;
+    padding: 1px 2px;
+}
+
+td.content {
+    color: #001DFF;
+}
+
+input.inputcontent {
+    width: 239px;
+    height: 15px;
+    padding: 1px 0px;
+}
+
+fieldset {
+    border: 0;
+    margin-left: 2px;
+}
+
+legend {
+    font-weight: bolder;
+    padding: 5px 0px;
+}
+
+.checkbox,
+.checkbox_2 {
+    display: inline-block;
+}
+
+.checkbox {
+    margin: 6px 8px;
+}
+
+.checkbox_2 {
+    margin: 1px 12px;
+}
+
+.submit {
+    text-align: center;
+}
+
+.submit_btn {
+    width: 86px;
+}
+
+
+/*footer部分属性*/
+
+footer {
+    height: 46px;
+}
+
+footer span {
+    display: block;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    margin: 0 auto;
+}
